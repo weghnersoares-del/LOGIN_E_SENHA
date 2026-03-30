@@ -18,3 +18,57 @@ body {
 background-color: white;
 padding: 2rem;
 border-radius: 8px;
+
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*titulo*/
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+ /*espaço entre os campos do formulario*/
+ .input-group{
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: o.3rem;
+    color: #3333;
+ }
+
+ /* compos de digitção*/
+ input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+ }
+  
+ /*botões*/
+
+ button  {
+    width: 100%;
+    padding: 0.7 rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: poirter;
+    transition:background 0.3;
+
+ }
+  /*efeito do mouse*/
+  button: hover;{
+    background-color: #0056b3;
+  }
+  /*MENSAGEM de ERRO*/
+  #message {
+    text-align: center;
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
+  }
